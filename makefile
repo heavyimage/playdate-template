@@ -3,7 +3,7 @@
 .PHONY: run
 .PHONY: copy
 
-SDK = $(shell egrep '^\s*SDKRoot' ~/.Playdate/config | head -n 1 | cut -c9-)
+SDK = $(PLAYDATE_SDK_PATH)
 SDKBIN=$(SDK)/bin
 GAME=$(notdir $(CURDIR))
 SIM=Playdate Simulator
