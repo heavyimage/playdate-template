@@ -10,7 +10,7 @@ Use this template to explore the [Playdate SDK](https://play.date/dev/) and get 
 This builds off of the "Game Template" project provided in [the Playdate SDK](https://play.date/dev/) and adds a few nifty features.
 
 ### Standardized Structure
-This template uses the [recommended folder structure](https://sdk.play.date/1.9.3/Inside%20Playdate.html#_structuring_your_project) for Playdate games. Empty folders are preserved with an empty `.gitkeep` file that can be deleted if you'd like.
+This template uses the [recommended folder structure](https://sdk.play.date/Inside%20Playdate.html#_structuring_your_project) for Playdate games. Empty folders are preserved with an empty `.gitkeep` file that can be deleted if you'd like.
 
 ### Default Callbacks
 The Playdate SDK calls a few callbacks based on user interaction, the state of the device, and other game lifecycle events. Each of these have been implemented with a default implementation that prints out that each method has been called.
